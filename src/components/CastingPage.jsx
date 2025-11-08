@@ -9,12 +9,15 @@ const brand = {
   cool: "#b0bec5",
   coral: "#F26B38",
   teal: "#47B7B0",
+  green: "#bad7a0",
+  red: "#ec8181",
+  turquoise: "#7fdbde",
 };
 
 const SHOWS = [
   {
     key: "The Spectrum",
-    color: brand.blue,
+    color: brand.turquoise,
     title: "The Spectrum",
     blurb:
       "Fearless in debate, interested in discussing politics, philosophy and today's pressing issues? " +
@@ -23,7 +26,7 @@ const SHOWS = [
   },
   {
     key: "Political Blind Dates",
-    color: brand.teal,
+    color: brand.red,
     title: "Political Blind Dates",
     blurb:
       "Do you believe that intellectual intimacy can be a pathway to love? " +
@@ -31,7 +34,7 @@ const SHOWS = [
   },
   {
     key: "The Drop Off",
-    color: brand.coral,
+    color: brand.green,
     title: "The Drop Off",
     blurb:
       "Do you have an interesting story or a life‑changing experience you want heard? " +
