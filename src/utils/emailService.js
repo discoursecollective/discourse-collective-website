@@ -1,10 +1,14 @@
 import emailjs from '@emailjs/browser';
 
-// EmailJS configuration
-// You'll need to replace these with your actual EmailJS credentials
-const EMAILJS_SERVICE_ID = 'service_bzl6pzo';
-const EMAILJS_TEMPLATE_ID = 'template_ufwavyl';
-const EMAILJS_PUBLIC_KEY = 'lY8NUBZl3e7pR509L';
+// EmailJS configuration from environment variables
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+// Validate environment variables
+if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+  console.error('Missing EmailJS environment variables. Please check your .env file or deployment environment variables.');
+}
 
 // Initialize EmailJS
 emailjs.init(EMAILJS_PUBLIC_KEY);

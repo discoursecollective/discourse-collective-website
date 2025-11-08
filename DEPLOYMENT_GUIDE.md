@@ -47,7 +47,7 @@ git add .
 git commit -m "Initial commit - casting application"
 
 # Add your GitHub repository as origin
-git remote add origin https://github.com/YOUR_USERNAME/discourse-collective-casting.git
+git remote add origin https://github.com/discoursecollective/discourse-collective-website.git
 
 # Push to GitHub
 git branch -M main
