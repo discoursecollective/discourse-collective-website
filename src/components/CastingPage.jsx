@@ -20,7 +20,7 @@ const SHOWS = [
     color: brand.turquoise,
     title: "The Spectrum",
     blurb:
-      "Fearless in debate, interested in discussing politics, philosophy and today's pressing issues? " +
+      "Fearless in debate, interested in discussing politics, philosophy and today's pressing issues? \n" +
 
         "Sign up to participate in our new debate show!",
   },
@@ -29,7 +29,7 @@ const SHOWS = [
     color: brand.red,
     title: "Political Blind Dates",
     blurb:
-      "Do you believe that intellectual intimacy can be a pathway to love? " +
+      "Do you believe that intellectual intimacy is a pathway to love? \n" +
         "We're exploring the overlap between deep conversation and connection.",
   },
   {
@@ -37,7 +37,7 @@ const SHOWS = [
     color: brand.green,
     title: "The Drop Off",
     blurb:
-      "Do you have an interesting story or a life‑changing experience you want heard? " +
+      "Do you have an interesting story or a life‑changing experience you want heard? \n" +
         "We want to hear from you!",
   },
 ];
